@@ -173,7 +173,7 @@ void loop() {
     else {
     ps2x.read_gamepad(false, vibrate);
    
-    vibrate = ps2x.Analog(PSAB_CROSS);
+    vibrate = ps2x.Analog(PSB_CROSS);
     
     lx= ps2x.Analog(PSS_LX);
     ly= ps2x.Analog(PSS_LY);
